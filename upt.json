@@ -1,0 +1,10 @@
+{
+  "name": "hw2/modules/js/src/library/browser/filesystem/tests",
+  "dependencies": {
+    "%parent": "hw2-core/js-library-browser-filesystem"
+  },
+  "keep": [
+    ".git/config"
+  ],
+  "license": "http://www.hyperweb2.com/terms"
+}
