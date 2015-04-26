@@ -6,8 +6,8 @@
 'use strict';
 
 hw2.define([
-    "hw2!PATH_JS_LIB:browser/filesystem/include.js",
-    "hw2!PATH_JS_LIB:common/Path.js"
+    "hw2!{PATH_JS_LIB}browser/filesystem/include.js",
+    "hw2!{PATH_JS_LIB}common/Path.js"
 ], function () {
     var $ = this;
     $.Browser.Path = $.Class({base: $.Path, members: [
