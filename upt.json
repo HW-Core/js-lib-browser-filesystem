@@ -1,13 +1,13 @@
 {
-    "name": "hw2/modules/js/src/kernel",
+    "name": "hw2/modules/js/src/library/browser/filesystem",
     "license": "http://www.hyperweb2.com/terms",
     "dependencies": {
         "%common": "hw2-core/js-library-browser-common#*",
-        "%common": "hw2-core/js-library-filesystem#*"
+        "%fs": "hw2-core/js-library-filesystem#*"
     },
     "devDependencies": {
         "%tests": "hw2-core/js-library-browser-filesystem#tests",
-        "%doc": "hw2-core/js-library-browser-filesystem#doc"
+        "%doc": "hw2-core/js-library-browser-filesystem#gh-pages"
     },
     "_comment_keep": "ensure we keep the right git repository configurations",
     "keep": [
